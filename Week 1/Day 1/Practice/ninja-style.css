@@ -1,0 +1,14 @@
+/*My Global Font Selector*/
+*{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+my id selectors */
+#main-heading{
+    color: black;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+#sub-ninja-heading{
+    color: lightgray;
+    font-size: 25px;
+}
