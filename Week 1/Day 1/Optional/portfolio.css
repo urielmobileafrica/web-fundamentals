@@ -1,0 +1,78 @@
+/*Global Selectors*/
+*{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.tr-technologies{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.tr-left-right-border{
+    border-left:1px solid black;
+    border-right: 1px solid black;
+    text-align: left;
+}
+
+.tr-left-border{
+    border-left:1px solid black;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+.tr-nb-left-border{
+    border-left:1px solid black;
+    text-align: left;
+}
+
+.tr-bottom-border{
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+
+.table{
+    text-align: left;
+    border-collapse: collapse;
+    
+}
+
+.my-picture{
+    max-width: 150px;
+    max-height: 150px;
+    /*maintining aspect ratio but resize based on the page*/
+    width: auto;
+    height: auto;
+}
+
+#my-icon-gh{
+    max-width: 30px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+}
+#my-icon-linkedin{
+    max-width: 15px;
+    max-height: 15px;
+    width: auto;
+    height: auto;
+}
+#my-icon-email{
+    max-width: 30px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+}
+
+#img-social{
+    height: 70px;
+    width: 70px;
+    max-width: 100px;
+    max-height: 100px; 
+    width: auto;
+    height: auto;
+}
+
+.contact-me{
+    display: flex;
+    align-items: normal;
+}
+
