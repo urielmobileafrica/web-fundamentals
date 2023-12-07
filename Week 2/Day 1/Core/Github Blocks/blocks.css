@@ -9,33 +9,26 @@
     text-align: center;
 }
 
-.row1{
+.rows{
     display: flex;
     justify-content: center;
+    height: 200px;
+    width: 600px;
+    margin: 15px;
+  
+}
+#row1{
     background-color: aqua;
-    height: 200px;
-    width: 600px;
-    margin: 15px;
   
 }
 
-.row2{
-    display: flex;
-    justify-content: center;
+#row2{
     background-color: rgb(213, 175, 206);
-    height: 200px;
-    width: 600px;
-    margin: 15px;
   
 }
 
-.row3{
-    display: flex;
-    justify-content: center;
+#row3{
     background-color:white;
-    height: 200px;
-    width: 600px;
-    margin: 15px;
   
 }
 
@@ -43,4 +36,7 @@ img{
     padding: 10px;
     height: 180px;
     width: 180px;
+}
+body{
+    background-color: rgb(234,243,255);
 }
