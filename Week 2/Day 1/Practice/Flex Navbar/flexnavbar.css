@@ -1,0 +1,43 @@
+/*Here's my Coding Ouliner*/
+*{
+    /*outline: 1px solid red;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*Change nav-links*/
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51,51,51);
+    color: white;
+}
+
+.nav-title{
+    display: flex;
+    margin-left: 30px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li, a{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    color: gray;
+}
+
+.active{
+    color: white;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(24,162,184);
+    margin-right: 10px;
+}
