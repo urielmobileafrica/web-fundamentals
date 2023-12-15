@@ -1,0 +1,276 @@
+/*Global Settings*/
+*{
+    /*use to measure progress*/
+    /* outline: 1px solid red;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Change nav-links*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51,51,51);
+    color: white;
+    width: auto;
+}
+
+.nav-title{
+    display: flex;
+    margin-left: 30px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li, a{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    color: gray;
+}
+
+.active{
+    color: white;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(24,162,184);
+    margin-right: 10px;
+}
+
+/*Setting up the Flexbox*/
+.main{
+    /*main container*/
+    display: flex;
+    max-width: auto;
+}
+
+.top {
+    display: flex;
+    width: 50%;
+    /*max-height: 800px;*/
+    /*justify-content: space-evenly;*/
+    flex-direction: column;
+    align-items: flex-start;   
+    justify-content: top;
+}
+
+.bottom{
+    display: flex;
+    width: 50%;
+    /*max-height: 800px;*/
+    flex-direction: column;
+    align-items: flex-start;   
+    justify-content: top;
+}
+
+.myprofile, .myeducation, .requests, .connections, .connections-view-more{
+    display: flex;
+    flex-direction: column;
+      outline: 3px solid #CCCCCC;
+    /*height: auto;*/
+}
+.myprofile{
+    width: 300px;
+    margin: 5px;
+    height: 50%;
+}
+.myprofile-top{
+    display: flex;
+    height: 75px;
+    background-color: aqua;
+    align-items: center;
+}
+
+.jane-image{
+    position: relative; /*Movie Image position without distorting div container*/
+    top: 37.5px;
+    margin: 5px;
+}
+#img-jane{
+    display: flex;
+    align-items: center;
+    width: 75px;       /* Set the width to the desired size */
+    height: 75px;      /* Set the height to the same as the width for a circle */
+    border-radius: 50%; /* This creates a circle */
+    object-fit: cover; /*ensure no distortion*/
+}
+
+.myprofile-bottom{
+    height: 400px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.icon-pair{
+    display: flex;
+    align-items: center;
+}
+.icon-pair > img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.gear-pair{
+    display: flex;
+    align-items: center;
+    position: relative;
+    /*bottom: 17px;*/
+}
+.gear-pair > img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    
+}
+
+.myeducation{
+    position: relative; /*repositioning education due to mods on Jane image*/
+    top: 5px;
+    margin: 5px; 
+    
+    width: 300px;
+    margin: 5px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#education-title{
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.myeducation-top{
+    display: flex;
+    background-color: #333333
+}
+.myeducation-bottom{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: white;
+    margin-left: 5px;
+}
+
+#myed-1{
+ color: black;
+ font-size: large;
+ font-weight: bold;
+}
+
+#myed-2{
+    color: #CCCCCC;
+}
+#myed-3{
+   color: black;
+   font-size: small;
+   font-weight: bold;
+}
+
+.connections{
+    width: 50%;
+    margin: 5px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.connections-top{
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    height: 50px;
+}
+
+#connections-title{
+    color: white;
+    font-weight: bold;
+    margin-left: 20px; 
+
+}
+
+
+
+#con-div1{
+    background-color: #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;       /* Set the width to the desired size */
+    height: auto;      /* Set the height to the same as the width for a circle */
+    border-radius: 50%; /* This creates a circle */
+    object-fit: cover; /*ensure no distortion*/
+    margin-left: 5px;
+    color: #333333;
+    padding: 3px;
+    
+}
+
+#con-div2{
+    background-color: #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10px;       /* Set the width to the desired size */
+    height: 10px;      /* Set the height to the same as the width for a circle */
+    border-radius: 50%; /* This creates a circle */
+    /*object-fit: cover; /*ensure no distortion*/
+    margin-left: 5px;
+    color: #333333;
+    padding: 4px;
+    
+}
+
+.img-requests{
+    display: flex;
+    align-items: center;
+    width: 75px;       /* Set the width to the desired size */
+    height: 75px;      /* Set the height to the same as the width for a circle */
+    border-radius: 50%; /* This creates a circle */
+    object-fit: cover; /*ensure no distortion*/
+}
+
+.conn-person{
+    display: flex;
+    align-items: center;
+}
+.img-ppl{
+    display: flex;
+    align-items: center;
+    width: 50px;       /* Set the width to the desired size */
+    height: 50 px;      /* Set the height to the same as the width for a circle */
+    border-radius: 50%; /* This creates a circle */
+    object-fit: cover; /*ensure no distortion*/ 
+    margin: 10px;
+}
+
+.img-checks{
+    display: flex;
+    align-items: center;
+    width: 25px;       /* Set the width to the desired size */
+    height: 25 px;      /* Set the height to the same as the width for a circle */
+    border-radius: 50%; /* This creates a circle */
+    object-fit: cover; /*ensure no distortion*/ 
+    margin-left: 10px;
+}
+
+.name-box, .check-box{
+    display: flex;
+    flex: 2;
+}
+
+.requests-top{
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    height: 50px;
+}

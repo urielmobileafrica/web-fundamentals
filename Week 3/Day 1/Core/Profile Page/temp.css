@@ -1,0 +1,28 @@
+
+.profile{
+    display: flex; /* Enables Flexbox */
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 480px; /* Adjust width as needed */
+    margin-left: 30px; /* Center the card in the body */
+    overflow: hidden;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+   
+
+.requests{
+
+}
+
+.education{
+
+}
+.connections{
+
+}
