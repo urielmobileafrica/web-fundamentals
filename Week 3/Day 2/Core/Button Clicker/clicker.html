@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/clicker.css"> 
+</head>
+<body>
+    <div class="title">
+        <h1 id="title-text">Dojonary</h1>
+        <input id="title-txtbox" type="text">
+        <button id="btn-login" onmouseout="changeback(this)" onmouseover="changetxt(this)">Login</button>
+    </div>
+    <div class="main">
+        
+        <div class="left">
+            <div class="main-sub">
+                <div class="word">
+                        <div><span class="txt-larger">ninja</span><br></div>
+                        <div><span class="txt-large">noun</span></div>
+                        <div class="txt-small"><span class="txt-small">Plural:</span><span class="italicised">ninjas</span></div>
+                        <div>
+                            <input class="btn-likes" type="button" value="13 likes">
+                        </div>
+                </div>
+                <p>A practioner skilled in the <br>
+                <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+        
+            <div class="main-sub">
+                <div class="word">
+                        <div><span class="txt-larger">ninja</span><br></div>
+                        <div><span class="txt-large">noun</span></div>
+                        <div class="txt-small"><span class="txt-small">Plural:</span><span class="italicised">ninjas</span></div>
+                        <div>
+                            <input class="btn-likes" type="button" value="37 likes">
+                        </div>
+                </div>
+                <p>A <a href="#">programmer</a> who breaks <br>
+                down problems with <a href="#">zen</a>-like<br>focus</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="my-dojonary">
+                <div class="dj-top">
+                    <p>Dojonary is<br>defined by <strong>YOU</strong></p>
+                </div>
+                <div class="dj-bottom">
+                    <button id="btn-define" onclick="disappear(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Script File Process at the End-->
+    <script src="scripts/clicker.js"></script>
+</body>
+</html>
