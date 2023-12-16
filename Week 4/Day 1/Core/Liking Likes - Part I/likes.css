@@ -1,0 +1,31 @@
+*{
+    /*outline: 1px solid red;*/
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.main{
+    display: flex;
+    outline: 1px solid black;
+    width: 25%;
+    flex-direction: column;
+}
+
+.main-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#like{
+    background-color: #FFD965;
+    width: 70px;
+    /*Sample code to add shadow to a button similar to the image in the wireframe*/
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
