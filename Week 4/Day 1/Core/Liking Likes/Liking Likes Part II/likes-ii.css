@@ -1,0 +1,81 @@
+*{
+    /*outline: 1px solid red;*/
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.main{
+   display: flex;
+   width: 100%;
+   height: auto;
+   justify-content: center;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    outline: 3px solid black;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.record{
+    display: flex;
+    outline: 3px solid black;
+    width: 350px;
+    flex-direction: column;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+
+}
+
+.main-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 25px;
+}
+
+#like{
+    background-color: #FFD965;
+    width: 70px;
+    /*Sample code to add shadow to a button similar to the image in the wireframe*/
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.Network{
+    display:flex;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+#net1, #net3{
+    flex: 1;
+    background-color: white;
+}
+#net2{
+    flex: 1.06;
+}
+
+#img-avatar{
+    display: flex;
+    align-items: center;
+    width: 75px;       /* Set the width to the desired size */
+    height: 75px;      /* Set the height to the same as the width for a circle */
+    border-radius: 50%; /* This creates a circle */
+    object-fit: cover; /*ensure no distortion*/
+}
+
+#feed{
+    display: flex;
+    justify-content: center;
+}
+
